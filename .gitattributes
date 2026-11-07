@@ -1,0 +1,12 @@
+# See https://github.com/github/linguist
+src/**/*.rs linguist-detectable
+*.html linguist-vendored
+*.rs linguist-detectable 
+*.min.js linguist-generated
+public/* linguist-vendored
+*.ico binary
+
+*.jpeg binary
+*.md linguist-documentation
+*.bat text eol=crlf
+*.jpg binary
